@@ -36,3 +36,53 @@ body {
 .nav-pages a:hover {
     color: #7f7c7c; /* Change color on hover */
 }
+
+
+
+/*  footer */
+
+/* Style the footer */
+footer {
+    background-color: #111; /* Darker background color */
+    color: #fff; /* White text color */
+    padding: 20px;
+}
+
+/* Style the footer logo */
+.footer_logo img {
+    width: 150px;
+}
+
+/* Style the sections within the footer */
+.pages, .doc, .social, .contact {
+    display: block; /* Set div elements to block display */
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Style the headings within the sections */
+.pages h3, .doc h3, .social h3, .contact h3 {
+    font-size: 18px;
+}
+
+/* Style the links in the sections */
+.pages a, .doc a, .social a, .contact a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    margin-right: 10px;
+}
+
+/* Style the social icons */
+.social i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Add a horizontal line to separate the sections */
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
