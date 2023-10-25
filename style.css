@@ -88,4 +88,31 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-qwert{}
+
+.contact_container{
+    padding: 100px;
+    display: flex;
+}
+.contact_container h2{
+    color:rgb(250, 11, 11);
+    font-size: 35px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.contact_container .g_map{
+    border:10px solid rgb(79, 77, 79);
+
+}
+
+.contact_container .contact_content{
+    padding: 20px;;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: cosmic,sans-serif;
+}
+
